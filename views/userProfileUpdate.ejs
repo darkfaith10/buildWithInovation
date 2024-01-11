@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/userProfileUpdate.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <section>
+        <div class="heading">
+            <h2>Weather App</h2>
+        </div>
+        <div class="main-container">
+            <div class="form-heading">
+                <h3>Update Profile</h3>
+            </div>
+            <div class="form">
+                <h4>Enter the details you want to update</h4>
+                <form action="/updateUserDetails" method="post" >
+                    <div class="form-field">
+                        <label>Current Email</label>
+                        <input type="text" class="input-field" name="userEmail">
+                    </div>
+                    <br />
+                    <div class="form-field">
+                        <label>New Email</label>
+                        <input type="text" class="input-field" name="userNewEmail">
+                    </div>
+                    <br />
+                    <div class="form-field">
+                        <label>Name</label>
+                        <input type="text" class="input-field" name="userName">
+                    </div>
+                    <br />
+                    <div class="form-field">
+                        <label>Phone</label>
+                        <input type="number" class="input-field" name="userPhone">
+                    </div>
+                    <br />
+                    <div class="form-field">
+                        <label>City</label>
+                        <input type="text" class="input-field" name="userCity">
+                    </div>
+                    <br />
+                    <div class="form-field">
+                        <label>Country</label>
+                        <input type="text" class="input-field" name="userCountry">
+                    </div>
+                    <br />
+                    <div class="form-field">
+                        <label>Password</label>
+                        <input type="password" class="input-field" name="userPassword">
+                    </div>
+                    <br />
+                    <button type="submit" class="sign-up-button">Update Profile</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

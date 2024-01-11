@@ -1,0 +1,51 @@
+
+body {
+  text-align: center;
+  font-family: Poppins;
+  background-color: whitesmoke;
+}
+
+.heading {
+  margin-top: 2rem;
+}
+
+
+.main-container {
+  font-family: Poppins;
+  background-color: #D9EDBF;
+  text-align: center;
+  height: 35 rem;
+  width: 30rem;
+  margin-left: 33rem;
+  margin-top: 3 rem;
+  padding: 1rem;
+
+  border-radius: 1rem;
+}
+
+.form-field {
+  margin: 0.5 rem;
+  padding: 0.25 rem;
+  height: 2rem;
+}
+
+.input-field {
+  border: none;
+  height: 1.5rem;
+  width: 10rem;
+  border-radius: 0.25rem;
+  margin-left: 4rem;
+}
+
+.sign-up-button {
+  border: none;
+  margin-top: 0rem;
+  height: 2rem;
+  width: 5rem;
+  border-radius: 0.5rem;
+  background-color: #7FC7D9;
+}
+
+.sign-up-button:hover {
+  background-color: #7077A1;
+}
